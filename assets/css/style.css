@@ -40,6 +40,7 @@ body {
     background-color: #ffffff;
     color: #000000;
     border-top: 1px dashed #000000;
+    max-width: 10em;
   }
   
   .past {
@@ -49,12 +50,12 @@ body {
   
   .present {
     background-color: #ff6961;
-    color: white;
+    color: black;
   }
   
   .future {
     background-color: #77dd77;
-    color: white;
+    color: black;
   }
   
   .saveBtn {
@@ -63,10 +64,10 @@ body {
     border-bottom-right-radius: 15px;
     background-color: #06aed5;
     color: white;
+    max-width: 10em;
   }
   
   .saveBtn i:hover {
     font-size: 20px;
     transition: all 0.3s ease-in-out;
   }
-  
