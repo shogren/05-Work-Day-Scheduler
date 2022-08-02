@@ -5,7 +5,7 @@ body {
   }
   
   textarea {
-    background: transparent;
+    background: #E5E9F0;
     border: none;
     resize: none;
     color: #000000;
@@ -15,7 +15,7 @@ body {
   
   .jumbotron {
     text-align: center;
-    background-color: transparent;
+    background-color: #E5E9F0;
     color: black;
     border-radius: 0;
     border-bottom: 10px solid black;
@@ -33,7 +33,7 @@ body {
   .row {
     white-space: pre-wrap;
     height: 80px;
-    border-top: 1px solid white;
+    border-top: 1px solid #E5E9F0;
   }
   
   .hour {
@@ -44,8 +44,8 @@ body {
   }
   
   .past {
-    background-color: #d3d3d3;
-    color: white;
+    background-color: #D8DEE9;
+    color: #4C566A;
   }
   
   .present {
@@ -62,12 +62,40 @@ body {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #06aed5;
+    background-color: #88C0D0;
     color: white;
     max-width: 10em;
   }
+
+  #saveBtn {
+  padding: 15px 65px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #5E81AC;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  }
   
+  #saveBtn:hover {
+    background-color: #81A1C1;
+  }
+
+  #saveBtn:active {
+    background-color: #81A1C1;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
   .saveBtn i:hover {
-    font-size: 20px;
-    transition: all 0.3s ease-in-out;
+    font-size: 50px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .saveIcon {
+    width: 50px;
+    height: 50px;
   }
